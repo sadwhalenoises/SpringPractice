@@ -21,10 +21,6 @@ public class App
         Phone studentPhone3 = (Phone)context.getBean("Phone2");
         Student student =  context1.getBean(Student.class);
 
-        studentPhone.setNumber("000-0000");
-        studentPhone2.setNumber("111-1111");
-        studentPhone3.setNumber("222-2222");
-
         List<Phone> ph = new ArrayList<>();
         ph.add(studentPhone);
         ph.add(studentPhone2);

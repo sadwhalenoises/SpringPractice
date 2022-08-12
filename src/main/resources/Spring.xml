@@ -8,10 +8,10 @@
                 <property name="number" value="000-0000"/>
         </bean>
         <bean id="Phone1" class="org.example.Phone">
-                <property name="number" value="000-0000"/>
+                <property name="number" value="111-1111"/>
         </bean>
         <bean id="Phone2" class="org.example.Phone">
-                <property name="number" value="000-0000"/>
+                <property name="number" value="222-2222"/>
         </bean>
 
         <context:component-scan base-package="org.example"/>
