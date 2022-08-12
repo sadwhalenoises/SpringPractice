@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01f13d3e-e746-4727-ba76-97c4c55f50ce" name="Changes" comment="Changed xml bean config">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Address.java" afterDir="false" />
+    <list default="true" id="01f13d3e-e746-4727-ba76-97c4c55f50ce" name="Changes" comment="removed redundancy.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/BeanCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/BeanCollection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Phone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Phone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Spring.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +88,21 @@
       <option name="project" value="LOCAL" />
       <updated>1660302456328</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="removed redundancy.">
+      <created>1660304381650</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1660304381650</updated>
+    </task>
+    <task id="LOCAL-00004" summary="removed redundancy.">
+      <created>1660304735342</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1660304735342</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -113,6 +131,19 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Finished SpringPractice" />
     <MESSAGE value="Changed xml bean config" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed xml bean config" />
+    <MESSAGE value="removed redundancy." />
+    <option name="LAST_COMMIT_MESSAGE" value="removed redundancy." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Student.java</url>
+          <line>14</line>
+          <properties field="ph" class="org.example.Student" />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

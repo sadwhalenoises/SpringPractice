@@ -13,25 +13,9 @@ public class App
 {
     public static void main( String[] args )
     {
-        ApplicationContext context = new ClassPathXmlApplicationContext("Spring.xml");
         ApplicationContext context1 = new AnnotationConfigApplicationContext(BeanCollection.class);
 
-        Phone studentPhone = (Phone)context.getBean("Phone");
-        Phone studentPhone2 = (Phone)context.getBean("Phone1");
-        Phone studentPhone3 = (Phone)context.getBean("Phone2");
         Student student =  context1.getBean(Student.class);
-
-        List<Phone> ph = new ArrayList<>();
-        ph.add(studentPhone);
-        ph.add(studentPhone2);
-        ph.add(studentPhone3);
-
-        student.setPh(ph);
-        student.setId(1);
-        student.setName("Alex");
-
-
-
 
          System.out.println(student);
 

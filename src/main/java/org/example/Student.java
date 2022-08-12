@@ -1,18 +1,30 @@
 package org.example;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
 @Component
 public class Student {
+    @Value("1")
     private int id;
+    @Value("Alex")
     private String name;
+
 
     private List<Phone> ph;
     @Autowired
     private Address add;
+
+
+
+    Student(List<Phone> list){
+
+        this.ph = new ArrayList<>(list);
+    }
 
     public int getId() {
         return id;
@@ -34,9 +46,7 @@ public class Student {
         return ph;
     }
 
-    public void setPh(List<Phone> ph) {
-        this.ph = ph;
-    }
+
 
     public Address getAdd() {
         return add;
