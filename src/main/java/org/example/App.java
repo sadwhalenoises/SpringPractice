@@ -20,14 +20,6 @@ public class App
         Phone studentPhone2 = (Phone)context.getBean("Phone1");
         Phone studentPhone3 = (Phone)context.getBean("Phone2");
         Student student =  context1.getBean(Student.class);
-        Address address = context1.getBean(Address.class);
-
-        address.setState("Mississippi");
-        address.setCity("Laurel");
-        address.setZipcode("99999");
-        address.setCountry("USA");
-
-        student.setAdd(address);
 
         studentPhone.setNumber("000-0000");
         studentPhone2.setNumber("111-1111");

@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01f13d3e-e746-4727-ba76-97c4c55f50ce" name="Changes" comment="Finished SpringPractice">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="01f13d3e-e746-4727-ba76-97c4c55f50ce" name="Changes" comment="Changed xml bean config">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Address.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/BeanCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/BeanCollection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Phone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Phone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Spring.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +77,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660300185725</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Changed xml bean config">
+      <created>1660302456328</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1660302456328</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -110,6 +112,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Finished SpringPractice" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished SpringPractice" />
+    <MESSAGE value="Changed xml bean config" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed xml bean config" />
   </component>
 </project>
