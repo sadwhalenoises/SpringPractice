@@ -4,20 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01f13d3e-e746-4727-ba76-97c4c55f50ce" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/BeanCollection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Phone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" afterDir="false" />
+    <list default="true" id="01f13d3e-e746-4727-ba76-97c4c55f50ce" name="Changes" comment="Finished SpringPractice">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/BeanCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/BeanCollection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Phone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Phone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Spring.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +75,14 @@
       <option name="presentableId" value="Default" />
       <updated>1660292893006</updated>
     </task>
+    <task id="LOCAL-00001" summary="Finished SpringPractice">
+      <created>1660300185725</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1660300185725</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -88,10 +90,26 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Finished SpringPractice" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished SpringPractice" />
   </component>
 </project>

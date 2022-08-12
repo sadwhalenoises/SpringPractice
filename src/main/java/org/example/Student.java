@@ -2,6 +2,7 @@ package org.example;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
+import java.util.Arrays;
 import java.util.List;
 
 @Component
@@ -45,12 +46,22 @@ public class Student {
         this.add = add;
     }
 
+    public String[] arrayString (List<Phone> list){
+        String[] str = new String[list.size()];
+        int i = 0;
+        for(Phone num: list){
+            str[i] = num.getNumber();
+            i++;
+        }
+        return str;
+    }
+
     @Override
     public String toString() {
         return "Student{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
-                ", ph=" + ph +
+                ", ph=" + Arrays.toString(arrayString(ph)) +
                 ", add=" + add +
                 '}';
     }

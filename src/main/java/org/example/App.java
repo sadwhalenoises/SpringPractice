@@ -17,8 +17,8 @@ public class App
         ApplicationContext context1 = new AnnotationConfigApplicationContext(BeanCollection.class);
 
         Phone studentPhone = (Phone)context.getBean("Phone");
-        Phone studentPhone2 = (Phone)context.getBean("Phone");
-        Phone studentPhone3 = (Phone)context.getBean("Phone");
+        Phone studentPhone2 = (Phone)context.getBean("Phone1");
+        Phone studentPhone3 = (Phone)context.getBean("Phone2");
         Student student =  context1.getBean(Student.class);
         Address address = context1.getBean(Address.class);
 
